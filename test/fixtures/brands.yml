@@ -3,9 +3,9 @@
 one:
   name: MyString
   about: MyString
-  contact: MyString
+  website: MyString
 
 two:
   name: MyString
   about: MyString
-  contact: MyString
+  website: MyString

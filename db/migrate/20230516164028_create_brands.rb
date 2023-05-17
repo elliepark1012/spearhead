@@ -3,7 +3,7 @@ class CreateBrands < ActiveRecord::Migration[7.0]
     create_table :brands do |t|
       t.string :name
       t.string :about
-      t.string :contact
+      t.string :website
 
       t.timestamps
     end
