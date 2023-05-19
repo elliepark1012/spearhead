@@ -46,7 +46,7 @@ website: "https://www.jacquemus.com/en_us?gclid=CjwKCAjw04yjBhApEiwAJcvNoSguPc8b
  Hat.create(name: "Jacquemus Le Bob Artichaut Off White", price: 174, size:"56", image:"https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/085/868/882/original/919753_01.jpg.jpeg?action=crop&width=500", brand_id:5)
  
  User.create(name:"ellie", email:"no@opt.com", password:"1234")
- 20.times{User.create(name:Faker::Internet.username, email:Faker::Internet.safe_email, password:Faker::Internet.password)}
+ 20.times{User.create(name:Faker::Internet.username, email:Faker::Internet.email, password:Faker::Internet.password)}
  Order.create(amount:32, hat_id:1, user_id:1)
  Order.create(amount:33333, hat_id:1, user_id:1)
  Order.create(amount:30, hat_id:2, user_id:5)
